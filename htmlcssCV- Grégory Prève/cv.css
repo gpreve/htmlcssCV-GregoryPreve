@@ -1,0 +1,91 @@
+        * { margin: 0; padding: 0; }
+        body {
+                font: 16px Helvetica, Sans-Serif;
+                line-height: 24px;
+                background-image: url(motifs.jpg);
+        }
+        .clear {
+                clear: both;
+        }
+        .général {
+                width: 1000px;
+                margin: 40px auto 60px;
+				
+        }
+		
+        .titre {
+                margin: 0 0 16px 0;
+                padding: 0 0 16px 0;
+                font-size: 42px;
+                font-weight: bold;
+                letter-spacing: -2px;
+                border-bottom: 4px solid #999;
+				color: #FFF
+        }
+        .soustitres {
+                font-size: 20px;
+                margin: 0 0 6px 0;
+                position: relative;
+				color: #FFF;
+				border-bottom: 1px solid #999;
+				transition-property: font-size; 
+				transition-duration: 0.7s; 
+				
+        }
+		.soustitres:hover {
+			font-size:24px;
+		}
+        .date { position: absolute;
+                bottom: 0;
+                right: 0;
+                font-style: italic;
+                font-family: Georgia, Serif;
+                font-size: 16px;
+                color: #388E8E;
+                font-weight: normal;
+        }
+        .texte {
+                margin: 0 0 16px 0;
+				color: #8A8A8A
+				
+        }
+		.precisions {
+				text-indent: 10%;
+				font-size: 14px;
+				color: #8A8A8A;
+		}
+        .liens {
+                color: white;
+				transition-property: font-size; 
+				transition-duration: 0.7s; 
+        }
+        .liens:hover {
+                color: #388E8E;
+				font-size: 108%
+        }
+        .liste {
+                margin: 0 0 32px 17px;
+        }
+        .catégories {
+                font-style: italic;
+                font-weight: bold;
+                font-size: 26px;
+                text-align: right;
+                padding: 0 26px 0 0;
+                width: 300px;
+                float: left;
+                height: 100px;
+                border-right: 4px solid #999;
+				color: #FFF;
+        }
+
+		.paragraphes{
+                width: 600px;
+                float: right;
+				color: #FFF;
+        }
+        dd.clear {
+                float: none;
+                margin: 0;
+                height: 15px;
+        }
